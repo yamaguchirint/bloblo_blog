@@ -9,7 +9,7 @@ const name = "もちもち大臣"
 //const name = App.pageProps.name//Container.name
 export const siteTitle = 'Next.js Sample Website';
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, pictureUrl }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -33,7 +33,7 @@ export default function Layout({ children, home }) {
             <Image
               priority
               //src="/images/profile.jpg"
-              src="/food_tamago_gohan1.png"
+              src = {pictureUrl}
               className={utilStyles.borderCircle}
               height={144}
               width={144}
