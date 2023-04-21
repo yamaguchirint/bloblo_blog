@@ -3,9 +3,10 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import { Component } from 'react/cjs/react.production.min';
 // import App from '../pages/_app';
 
-const name = 'Rinto Yamaguchi';
+const name = "もちもち大臣"
 //const name = App.pageProps.name//Container.name
 export const siteTitle = 'Next.js Sample Website';
 
