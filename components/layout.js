@@ -10,6 +10,7 @@ const name = "もちもち大臣"
 export const siteTitle = 'Next.js Sample Website';
 
 export default function Layout({ children, home, pictureUrl }) {
+  alert(pictureUrl)
   return (
     <div className={styles.container}>
       <Head>
