@@ -1,6 +1,6 @@
 import '../styles/global.css';
 import Script from 'next/script'
-import { useState, useEffect, Component} from "react";
+import { useState, useEffect, Container} from "react";
 
 export default function App({ Component, pageProps }) {
   const [liffObject, setLiffObject] = useState(null);
