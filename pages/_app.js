@@ -45,9 +45,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Script charSet="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js" strategy="beforeInteractive"></Script>
-      <Container>
       <Component {...pageProps} />
-      </Container>
     </>
   );
 }
