@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
     // to avoid `window is not defined` error
     console.log("start liff.init()...");
     (window).liff
-      .init({ liffId: 1660671680-D8vjjVOl })
+      .init({ liffId: "1660671680-D8vjjVOl" })
       .then(() => {
         console.log("liff.init() done");
         (window).liff.getProfile().then(function (profile) {
@@ -41,7 +41,7 @@ export default function App({ Component, pageProps }) {
   pageProps.liffError = liffError;
   pageProps.name = name;
   pageProps.pictureUrl = pictureUrl;
-    console.log(...pageProps)
+    console.log(pageProps)
   return (
     <>
       <Script charSet="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js" strategy="beforeInteractive"></Script>
