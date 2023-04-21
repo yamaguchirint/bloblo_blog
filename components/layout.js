@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import App from '../pages/_app';
 
-// const name = 'Rinto Yamaguchi';
+const name = 'Rinto Yamaguchi';
 //const name = App.pageProps.name//Container.name
 export const siteTitle = 'Next.js Sample Website';
 
