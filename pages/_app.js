@@ -20,6 +20,7 @@ export default function App({ Component, pageProps }) {
           setName(profile.displayName);
           setPictureUrl(profile.pictureUrl);
         });
+        alert(pictureUrl)
         setLiffObject((window).liff);
       })
       .catch((error) => {
