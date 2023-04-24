@@ -1,4 +1,5 @@
 import Layout from '../../components/layout';
+import Image from 'next/image';
 import Head from 'next/head';
 import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
