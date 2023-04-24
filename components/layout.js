@@ -9,7 +9,7 @@ const name = "もちもち大臣"
 //const name = App.pageProps.name//Container.name
 export const siteTitle = 'Next.js Sample Website';
 
-export default function Layout({ children, home, pictureUrl }) {
+export default function Layout({ children, home, pictureUrl, name}) {
   return (
     <div className={styles.container}>
       <Head>

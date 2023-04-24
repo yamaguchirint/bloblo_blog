@@ -20,9 +20,9 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home({ allPostsData }) {
+export default function Home({ allPostsData, pictureUrl, name }) {
   return (
-    <Layout home>
+    <Layout home $pictureUrl $name>
       {/* Keep the existing code here */}
 
       {/* Add this <section> tag below the existing <section> tag */}
