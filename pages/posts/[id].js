@@ -32,10 +32,18 @@ export async function getStaticPaths() {
   };
 }
 
-export default function Post({ postData }) {
+export default function Post({ postData, pictureUrl}) {
     return (
-      <Layout>
+      <Layout pictureUrl={pictureUrl}>
         <Head>
+        <Image
+                priority
+                src={pictureUrl}
+                className={utilStyles.borderCircle}
+                height={108}
+                width={108}
+                alt=""
+              />
           <title>{postData.title}</title>
         </Head>
         <article>
