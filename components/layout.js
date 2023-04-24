@@ -46,7 +46,7 @@ export default function Layout({ children, home, pictureUrl, name}) {
             <Link href="/">
               <Image
                 priority
-                src="/food_tamago_gohan2.png"
+                src={pictureUrl}
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
