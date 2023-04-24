@@ -33,7 +33,7 @@ export async function getStaticPaths() {
   };
 }
 
-export default function Post({ postData, pictureUrl}) {
+export default function Post({ postData, pictureUrl, name}) {
     return (
       <Layout pictureUrl={pictureUrl} name={name}>
         <Head>
