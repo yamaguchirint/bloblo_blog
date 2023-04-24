@@ -35,7 +35,7 @@ export async function getStaticPaths() {
 
 export default function Post({ postData, pictureUrl}) {
     return (
-      <Layout pictureUrl={pictureUrl}>
+      <Layout pictureUrl={pictureUrl} name={name}>
         <Head>
         <Image
                 priority
